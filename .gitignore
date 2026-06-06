@@ -1,0 +1,12 @@
+# Ignore local scripts, executables, and test assets from Git
+bootstrapper.ps1
+win-cleaner.ps1
+run.bat
+test-xaml.ps1
+test-xaml2.ps1
+test-result.txt
+*.log
+
+# Keep only the vercel deployment configuration and API code
+!vercel.json
+!api/

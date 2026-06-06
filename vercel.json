@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/bootstrapper.ps1", "destination": "/api/clean" }
+  ]
+}
